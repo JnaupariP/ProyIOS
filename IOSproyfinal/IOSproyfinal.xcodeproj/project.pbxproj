@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A662C34C2838970200C1E7CB /* PassRecovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A662C34B2838970200C1E7CB /* PassRecovery.storyboard */; };
+		A662C350283898F100C1E7CB /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A662C34F283898F100C1E7CB /* Register.storyboard */; };
 		A68750BE2835315400141F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68750BD2835315400141F32 /* AppDelegate.swift */; };
 		A68750C02835315400141F32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68750BF2835315400141F32 /* SceneDelegate.swift */; };
 		A68750C22835315400141F32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68750C12835315400141F32 /* ViewController.swift */; };
 		A68750C52835315400141F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68750C32835315400141F32 /* Main.storyboard */; };
 		A68750C72835315700141F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68750C62835315700141F32 /* Assets.xcassets */; };
 		A68750CA2835315700141F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68750C82835315700141F32 /* LaunchScreen.storyboard */; };
-		A68750F0283532E000141F32 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68750EF283532E000141F32 /* Register.storyboard */; };
 		A68750F2283532ED00141F32 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68750F1283532ED00141F32 /* Login.storyboard */; };
-		A68750F42835333F00141F32 /* PassRecovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68750F32835333F00141F32 /* PassRecovery.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A662C34B2838970200C1E7CB /* PassRecovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PassRecovery.storyboard; path = ../../../../../Downloads/PassRecovery.storyboard; sourceTree = "<group>"; };
+		A662C34F283898F100C1E7CB /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Register.storyboard; path = ../../../../../Downloads/Register.storyboard; sourceTree = "<group>"; };
 		A68750BA2835315400141F32 /* IOSproyfinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSproyfinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68750BD2835315400141F32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68750BF2835315400141F32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +29,7 @@
 		A68750C62835315700141F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A68750C92835315700141F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68750CB2835315700141F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A68750EF283532E000141F32 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		A68750F1283532ED00141F32 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		A68750F32835333F00141F32 /* PassRecovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassRecovery.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				A68750C82835315700141F32 /* LaunchScreen.storyboard */,
 				A68750CB2835315700141F32 /* Info.plist */,
 				A68750F1283532ED00141F32 /* Login.storyboard */,
-				A68750EF283532E000141F32 /* Register.storyboard */,
-				A68750F32835333F00141F32 /* PassRecovery.storyboard */,
+				A662C34F283898F100C1E7CB /* Register.storyboard */,
+				A662C34B2838970200C1E7CB /* PassRecovery.storyboard */,
 			);
 			path = IOSproyfinal;
 			sourceTree = "<group>";
@@ -136,10 +136,10 @@
 			files = (
 				A68750CA2835315700141F32 /* LaunchScreen.storyboard in Resources */,
 				A68750C72835315700141F32 /* Assets.xcassets in Resources */,
-				A68750F42835333F00141F32 /* PassRecovery.storyboard in Resources */,
 				A68750C52835315400141F32 /* Main.storyboard in Resources */,
+				A662C34C2838970200C1E7CB /* PassRecovery.storyboard in Resources */,
 				A68750F2283532ED00141F32 /* Login.storyboard in Resources */,
-				A68750F0283532E000141F32 /* Register.storyboard in Resources */,
+				A662C350283898F100C1E7CB /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
